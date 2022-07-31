@@ -1,0 +1,210 @@
+
+local Gui = Instance.new("ScreenGui")
+local GUI = Instance.new("Frame")
+local GuiName = Instance.new("TextLabel")
+local Frame = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local TextButton = Instance.new("TextButton")
+local UICorner_2 = Instance.new("UICorner")
+local Frame_2 = Instance.new("Frame")
+local UICorner_3 = Instance.new("UICorner")
+local Frame_3 = Instance.new("Frame")
+local UICorner_4 = Instance.new("UICorner")
+local Frame_4 = Instance.new("Frame")
+local UICorner_5 = Instance.new("UICorner")
+local Frame_5 = Instance.new("Frame")
+local Karllock = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local BozoAimlock = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local UICorner_8 = Instance.new("UICorner")
+local Antilock = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
+local LocksSection = Instance.new("TextLabel")
+local UICorner_10 = Instance.new("UICorner")
+local MadeBy = Instance.new("TextLabel")
+local realdingus = Instance.new("TextLabel")
+
+--Properties:
+
+Gui.Name = "Gui"
+Gui.Parent = game.CoreGui
+
+GUI.Name = "GUI"
+GUI.Parent = Gui
+GUI.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
+GUI.BorderColor3 = Color3.fromRGB(0, 243, 255)
+GUI.BorderSizePixel = 2
+GUI.Position = UDim2.new(0.334913105, 0, 0.107925802, 0)
+GUI.Size = UDim2.new(0, 441, 0, 465)
+GUI.Active = true
+GUI.Draggable = true
+
+GuiName.Name = "GuiName"
+GuiName.Parent = GUI
+GuiName.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+GuiName.BackgroundTransparency = 1.000
+GuiName.Size = UDim2.new(0, 114, 0, 21)
+GuiName.Font = Enum.Font.GothamMedium
+GuiName.Text = "Qelpp's Private"
+GuiName.TextColor3 = Color3.fromRGB(255, 255, 255)
+GuiName.TextSize = 14.000
+
+Frame.Parent = GUI
+Frame.BackgroundColor3 = Color3.fromRGB(24, 24, 24)
+Frame.Position = UDim2.new(0.0158730168, 0, 0.0455531441, 0)
+Frame.Size = UDim2.new(0, 425, 0, 36)
+
+UICorner.Parent = Frame
+
+TextButton.Parent = Frame
+TextButton.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+TextButton.Position = UDim2.new(0.0400000028, 0, 0.25, 0)
+TextButton.Size = UDim2.new(0, 99, 0, 18)
+TextButton.Font = Enum.Font.GothamMedium
+TextButton.Text = "AimLocks"
+TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.TextSize = 14.000
+
+UICorner_2.Parent = TextButton
+
+Frame_2.Parent = GUI
+Frame_2.BackgroundColor3 = Color3.fromRGB(24, 24, 24)
+Frame_2.Position = UDim2.new(0.0158730168, 0, 0.956616044, 0)
+Frame_2.Size = UDim2.new(0, 425, 0, 12)
+
+UICorner_3.Parent = Frame_2
+
+Frame_3.Parent = GUI
+Frame_3.BackgroundColor3 = Color3.fromRGB(24, 24, 24)
+Frame_3.BorderColor3 = Color3.fromRGB(16, 16, 16)
+Frame_3.Position = UDim2.new(0.0158730168, 0, 0.0455531441, 0)
+Frame_3.Size = UDim2.new(0, 10, 0, 432)
+
+UICorner_4.Parent = Frame_3
+
+Frame_4.Parent = GUI
+Frame_4.BackgroundColor3 = Color3.fromRGB(24, 24, 24)
+Frame_4.BorderColor3 = Color3.fromRGB(16, 16, 16)
+Frame_4.Position = UDim2.new(0.956916094, 0, 0.0455531441, 0)
+Frame_4.Size = UDim2.new(0, 10, 0, 432)
+
+UICorner_5.Parent = Frame_4
+
+Frame_5.Parent = GUI
+Frame_5.BackgroundColor3 = Color3.fromRGB(21, 21, 21)
+Frame_5.BorderColor3 = Color3.fromRGB(1, 255, 255)
+Frame_5.Position = UDim2.new(0.0604563616, 0, 0.212345973, 0)
+Frame_5.Size = UDim2.new(0, 383, 0, 333)
+
+Karllock.Name = "Karl lock"
+Karllock.Parent = Frame_5
+Karllock.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+Karllock.Position = UDim2.new(0.0893196091, 0, 0.0858241841, 0)
+Karllock.Size = UDim2.new(0, 308, 0, 23)
+Karllock.Font = Enum.Font.GothamMedium
+Karllock.Text = "Karl lock"
+Karllock.TextColor3 = Color3.fromRGB(241, 241, 241)
+Karllock.TextSize = 15.000
+Karllock.TextWrapped = true
+Karllock.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://pastebin.com/raw/EjcDDrsB"))()
+end)
+
+UICorner_6.Parent = Karllock
+
+BozoAimlock.Name = "BozoAimlock"
+BozoAimlock.Parent = Frame_5
+BozoAimlock.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+BozoAimlock.Position = UDim2.new(0.0871637836, 0, 0.229316875, 0)
+BozoAimlock.Size = UDim2.new(0, 308, 0, 23)
+BozoAimlock.Font = Enum.Font.GothamMedium
+BozoAimlock.Text = "Bozo Aimlock"
+BozoAimlock.TextColor3 = Color3.fromRGB(241, 241, 241)
+BozoAimlock.TextSize = 15.000
+BozoAimlock.TextWrapped = true
+BozoAimlock.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://pastebin.com/raw/qhzANPKK"))()
+end)
+UICorner_7.Parent = BozoAimlock
+
+UICorner_8.Parent = Frame_5
+
+Antilock.Name = "Anti lock"
+Antilock.Parent = Frame_5
+Antilock.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+Antilock.BorderColor3 = Color3.fromRGB(0, 255, 247)
+Antilock.BorderSizePixel = 2
+Antilock.Position = UDim2.new(0.232375979, 0, 0.552552581, 0)
+Antilock.Size = UDim2.new(0, 200, 0, 50)
+Antilock.Font = Enum.Font.GothamMedium
+Antilock.Text = "Anti Lock"
+Antilock.TextColor3 = Color3.fromRGB(255, 255, 255)
+Antilock.TextSize = 14.000
+Antilock.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://pastebin.com/raw/GQnaEyBT"))()
+end)
+
+UICorner_9.Parent = Antilock
+
+LocksSection.Name = "LocksSection"
+LocksSection.Parent = GUI
+LocksSection.BackgroundColor3 = Color3.fromRGB(21, 21, 21)
+LocksSection.Position = UDim2.new(0.0564424321, 0, 0.141324982, 0)
+LocksSection.Size = UDim2.new(0, 385, 0, 21)
+LocksSection.Font = Enum.Font.GothamMedium
+LocksSection.Text = "AimLocks Section"
+LocksSection.TextColor3 = Color3.fromRGB(255, 255, 255)
+LocksSection.TextSize = 14.000
+LocksSection.TextWrapped = true
+
+UICorner_10.Parent = LocksSection
+
+MadeBy.Name = "MadeBy"
+MadeBy.Parent = GUI
+MadeBy.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+MadeBy.BackgroundTransparency = 1.000
+MadeBy.Position = UDim2.new(0.625682592, 0, -6.56582415e-08, 0)
+MadeBy.Size = UDim2.new(0, 65, 0, 21)
+MadeBy.Font = Enum.Font.SourceSans
+MadeBy.Text = "made by"
+MadeBy.TextColor3 = Color3.fromRGB(255, 255, 255)
+MadeBy.TextSize = 15.000
+
+realdingus.Name = "real dingus"
+realdingus.Parent = GUI
+realdingus.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+realdingus.BackgroundTransparency = 1.000
+realdingus.Position = UDim2.new(0.772800386, 0, 0.00666157668, 0)
+realdingus.Size = UDim2.new(0, 89, 0, 14)
+realdingus.Font = Enum.Font.SourceSans
+realdingus.Text = "real dingus#6354"
+realdingus.TextColor3 = Color3.fromRGB(255, 0, 4)
+realdingus.TextSize = 15.000
+
+-- Scripts:
+
+local function BNYYUC_fake_script() -- Gui.LocalScript 
+	local script = Instance.new('LocalScript', Gui)
+
+	local GUI = script.Parent.GUI
+	local Opened = false
+	
+	local PositionClosed = UDim2.new(-0.349, 0,0.108, 0)
+	local PositionOpened = UDim2.new(0.335, 0,0.108, 0)
+	
+	local UserInputService = game:GetService("UserInputService")
+	
+	UserInputService.InputBegan:Connect(function(KeyCode)
+		if KeyCode.KeyCode == Enum.KeyCode.RightShift then
+			if Opened then
+				GUI:TweenPosition((PositionClosed), "InOut", "Quint")
+				Opened = false
+			else
+				GUI:TweenPosition((PositionOpened), "InOut", "Quart")
+				Opened = true
+			end
+		end
+	end)
+end
+coroutine.wrap(BNYYUC_fake_script)()
